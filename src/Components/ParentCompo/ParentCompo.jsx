@@ -3,7 +3,7 @@ import ChildCompo from "../ChildCompo/ChildCompo";
 import { CountAPI } from "../GrandCompo/GrandCompo";
 
 const ParentCompo = () => {
-  const [tech, setCount, count] = useContext(CountAPI);
+  const [tech, setCount, count] = useContext(CountAPI); /* useContext(APIName) ~ function to get the context value. Destructuring the values correspondingly. */
   return (
     <div>
       <h1>Parent</h1>
